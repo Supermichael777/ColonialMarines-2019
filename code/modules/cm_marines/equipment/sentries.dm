@@ -409,6 +409,7 @@
 
 			if(burst_fire)
 				burst_fire = 0
+				fire_delay = 3
 				visible_message("\icon[src] A green light on [src] blinks slowly.")
 				to_chat(usr, "\blue You deactivate the burst fire mode.")
 			else
